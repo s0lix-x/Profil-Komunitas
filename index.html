@@ -1,35 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Midnight Runners — Indonesian Running Community</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<nav class="site-header">
-  <div class="header-inner">
-    <a href="#" class="logo">MIDNIGHT RUNNERS</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midnight Runners — Indonesian Running Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="site-header">
+      <div class="header-inner">
+        <a href="#" class="logo">MIDNIGHT RUNNERS</a>
 
-    <nav class="main-nav">
-      <a href="#beranda" class="active">BERANDA</a>
-      <a href="#tentang">TENTANG</a>
-      <a href="#galeri">GALERI</a>
-      <a href="#event">EVENT</a>
-      <a href="#kontak">KONTAK</a>
+        <nav class="main-nav">
+          <a href="#beranda" class="active">BERANDA</a>
+          <a href="#tentang">TENTANG</a>
+          <a href="#galeri">GALERI</a>
+          <a href="#event">EVENT</a>
+          <a href="#kontak">KONTAK</a>
+        </nav>
+
+        <a href="#kontak" class="btn btn-accent">JOIN CLUB</a>
+
+        <button class="nav-toggle" aria-label="Buka menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </nav>
 
-    <a href="#kontak" class="btn btn-accent">JOIN CLUB</a>
+    <section class="hero" id="beranda">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-scrim"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">MIDNIGHT<br />RUNNERS</h1>
+        <p class="hero-subtitle">INDONESIAN RUNNING COMMUNITY</p>
+        <a href="#kontak" class="btn btn-outline hero-cta">JOIN US</a>
+      </div>
+      <div class="hero-fade"></div>
+    </section>
 
-    <button class="nav-toggle" aria-label="Buka menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-</nav>
-</body>
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="tentang">
+      <div class="about-inner">
+        <div class="about-text">
+          <span class="eyebrow"
+            ><span class="eyebrow-dash"></span>WE ARE MIDNIGHT RUNNERS</span
+          >
+          <h2 class="section-title">
+            CREATING COMMUNITIES<br />THROUGH HIGH-ENERGY<br />FITNESS EVENTS
+          </h2>
+          <div class="title-rule"></div>
+          <p class="about-copy">
+            Our volunteer based community creates accessible, social workouts in
+            urban centres around the world. We aim to bridge the gap between
+            enjoying your workout and hanging out with your friends. Seasoned
+            runner or just starting out? It doesn't matter to us. We run with
+            speakers and create a party that moves through the streets every
+            week and everyone is invited.
+          </p>
+          <a href="#event" class="btn btn-line">FIND AN EVENT IN YOUR CITY</a>
+        </div>
+
+        <div class="about-media">
+          <div class="about-photo" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
