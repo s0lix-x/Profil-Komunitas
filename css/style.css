@@ -1,0 +1,253 @@
+:root {
+  --bg: #0a0a0a;
+  --bg-alt: #101010;
+  --card: #1a1a1a;
+  --card-border: #2a2a2a;
+  --line: #292929;
+
+  --white: #f5f5f2;
+  --muted: #9a9a95;
+  --muted-2: #6f6f6a;
+
+  --accent: #c6ff1f;
+  --accent-dim: #a8db15;
+
+  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-body: "Space Grotesk", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+
+  --container: 1180px;
+  --transition: 0.18s ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.pin {
+  color: var(--accent);
+  font-size: 0.55em;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+
+  padding: 14px 28px;
+
+  border: 1px solid transparent;
+  border-radius: 3px;
+
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  transition:
+    transform var(--transition),
+    background-color var(--transition),
+    color var(--transition),
+    border-color var(--transition);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-accent {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn-accent:hover {
+  background: var(--accent-dim);
+}
+
+.btn-outline {
+  background: transparent;
+  border-color: rgba(245, 245, 242, 0.55);
+  color: var(--white);
+  backdrop-filter: blur(2px);
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-line {
+  background: transparent;
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-line:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+
+/* =========================================================
+   EYEBROW
+   ========================================================= */
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 18px;
+
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+.eyebrow-dash {
+  width: 28px;
+  height: 2px;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: rgba(8, 8, 8, 0.85);
+  border-bottom: 1px solid var(--line);
+
+  backdrop-filter: blur(10px);
+}
+
+.header-inner {
+  width: min(100% - 48px, var(--container));
+  margin: 0 auto;
+
+  padding: 18px 0;
+
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo {
+  margin-right: auto;
+
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 0.03em;
+}
+
+.main-nav {
+  display: flex;
+  gap: 28px;
+}
+
+.main-nav a {
+  padding-bottom: 4px;
+
+  border-bottom: 2px solid transparent;
+
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  transition:
+    color var(--transition),
+    border-color var(--transition);
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+  color: var(--white);
+}
+
+.main-nav a.active {
+  border-color: var(--accent);
+}
+
+.nav-toggle {
+  display: none;
+
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 8px;
+
+  background: none;
+  border: 0;
+
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  width: 22px;
+  height: 2px;
+  background: var(--white);
+}
