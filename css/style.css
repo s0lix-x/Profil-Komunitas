@@ -381,3 +381,8 @@ textarea {
 
   filter: grayscale(1) contrast(1.1);
 }
+
+.gallery {
+  background: var(--bg);
+  padding: 100px 24px 120px;
+}
