@@ -412,4 +412,14 @@ textarea {
   margin: 0;
 }
 
+ .gallery-grid {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  grid-template-rows: 300px 340px;
+  gap: 16px;
+}
  
+
+
