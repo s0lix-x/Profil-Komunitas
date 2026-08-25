@@ -436,3 +436,8 @@ textarea {
     transform 0.4s ease,
     filter 0.4s ease;
 }
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+  filter: grayscale(0.2) contrast(1.05);
+}
