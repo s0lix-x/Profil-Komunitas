@@ -474,3 +474,16 @@ textarea {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+
+.event-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.event-card:hover { transform: translateY(-4px); border-color: rgba(198,255,31,0.4); }
+ 
