@@ -447,3 +447,23 @@ textarea {
   margin: 40px auto 0;
   text-align: center;
 }
+
+.agenda {
+  padding: 60px 24px 140px;
+  background: var(--bg);
+}
+ 
+.agenda-heading {
+  max-width: var(--container);
+  margin: 0 auto 56px;
+  text-align: center;
+}
+ 
+.agenda-title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.02;
+  margin: 0;
+}
+.accent-text { color: var(--accent); }
+ 
