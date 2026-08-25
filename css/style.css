@@ -487,3 +487,23 @@ textarea {
 }
 .event-card:hover { transform: translateY(-4px); border-color: rgba(198,255,31,0.4); }
  
+.event-date {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+ 
+.event-name {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0 0 4px;
+}
+ 
+.event-loc {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 22px;
+}
