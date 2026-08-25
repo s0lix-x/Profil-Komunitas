@@ -386,3 +386,18 @@ textarea {
   background: var(--bg);
   padding: 100px 24px 120px;
 }
+
+.gallery-heading {
+  max-width: var(--container);
+  margin: 0 auto 48px;
+  text-align: center;
+}
+ 
+.gallery-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(26px, 3.4vw, 36px);
+  letter-spacing: 0.06em;
+  color: var(--white);
+  margin: 0 0 8px;
+}
