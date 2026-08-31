@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <nav class="site-header">
       <div class="header-inner">
@@ -70,6 +71,127 @@
         <div class="about-media">
           <div class="about-photo" aria-hidden="true"></div>
         </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeri-kami">
+      <div class="gallery-heading">
+        <h2 class="gallery-title">GALERI KAMI</h2>
+        <p class="gallery-subtitle">MOMEN MIDNIGHT</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item item-1">
+          <img
+            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=900&q=80"
+            alt="Pelari melintasi lintasan atletik"
+          />
+        </div>
+        <div class="gallery-item item-2">
+          <img
+            src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=900&q=80"
+            alt="Pelari berlari di jalanan kota"
+          />
+        </div>
+        <div class="gallery-item item-3">
+          <img
+            src="https://images.unsplash.com/photo-1571008887538-b36bb32f4571?auto=format&fit=crop&w=900&q=80"
+            alt="Pelari malam hari dengan lampu kota"
+          />
+        </div>
+        <div class="gallery-item item-4">
+          <img
+            src="https://images.unsplash.com/photo-1517931524326-bdd55a541177?auto=format&fit=crop&w=1200&q=80"
+            alt="Kerumunan pelari saat marathon"
+          />
+        </div>
+      </div>
+      <div class="gallery-cta">
+        <a href="#" class="btn btn-line">LIHAT LEBIH BANYAK</a>
+      </div>
+    </section>
+
+    <section class="agenda" id="event">
+      <div class="agenda-heading">
+        <h2 class="agenda-title">
+          AGENDA<br /><span class="accent-text">MENDATANG</span>
+        </h2>
+      </div>
+
+      <div class="agenda-grid">
+        <article class="event-card">
+          <span class="event-date">12 OCT 2024</span>
+          <h3 class="event-name">Night Run Jakarta</h3>
+          <p class="event-loc">
+            <span class="pin">&#9679;</span> SCBD Area, 10K Route
+          </p>
+          <a href="#kontak" class="btn btn-line btn-block">DAFTAR</a>
+        </article>
+
+        <article class="event-card event-card--featured">
+          <span class="event-date">20 OCT 2024</span>
+          <h3 class="event-name">Sunrise Dash</h3>
+          <p class="event-loc">
+            <span class="pin">&#9679;</span> Monas, 5K Fun Run
+          </p>
+          <a href="#kontak" class="btn btn-accent btn-block">DAFTAR</a>
+        </article>
+
+        <article class="event-card">
+          <span class="event-date">05 NOV 2024</span>
+          <h3 class="event-name">Trail Run Sentul</h3>
+          <p class="event-loc">
+            <span class="pin">&#9679;</span> Sentul Highland, 15K
+          </p>
+          <a href="#kontak" class="btn btn-line btn-block">DAFTAR</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="connect" id="kontak">
+      <div class="container connect__grid">
+        <div class="connect__info">
+          <h2 class="connect__title">CONNECT.</h2>
+          <p class="connect__desc">
+            Punya pertanyaan, ide kolaborasi, atau sekadar ingin menyapa? Jangan
+            ragu untuk menghubungi kami.
+          </p>
+        </div>
+
+        <div class="connect__item">
+          <span class="connect__icon">📍</span>
+          <div>
+            <span class="connect__label">BASECAMP</span>
+            <p>Jl. Sudirman No. 45<br />Jakarta Pusat, 10220</p>
+          </div>
+        </div>
+
+        <div class="connect__item">
+          <span class="connect__icon">✉️</span>
+          <div>
+            <span class="connect__label">EMAIL</span>
+            <p>hello@runnr.id</p>
+          </div>
+        </div>
+
+        <form class="connect__form">
+          <label for="nama">NAMA</label>
+          <input type="text" id="nama" placeholder="John Doe" />
+
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" placeholder="john@example.com" />
+
+          <label for="pesan">PESAN</label>
+          <textarea
+            id="pesan"
+            rows="4"
+            placeholder="Tulis pesan Anda di sini..."
+          ></textarea>
+
+          <button type="submit" class="btn btn--primary btn--full">
+            KIRIM PESAN →
+          </button>
+        </form>
       </div>
     </section>
   </body>

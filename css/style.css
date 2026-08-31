@@ -381,3 +381,227 @@ textarea {
 
   filter: grayscale(1) contrast(1.1);
 }
+
+.gallery {
+  background: var(--bg);
+  padding: 100px 24px 120px;
+}
+
+.gallery-heading {
+  max-width: var(--container);
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.gallery-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(26px, 3.4vw, 36px);
+  letter-spacing: 0.06em;
+  color: var(--white);
+  margin: 0 0 8px;
+}
+
+.gallery-subtitle {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(20px, 2.8vw, 28px);
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  margin: 0;
+}
+
+.gallery-grid {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  grid-template-rows: 300px 340px;
+  gap: 16px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid var(--card-border, #2a2a2a);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) contrast(1.05);
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+  filter: grayscale(0.2) contrast(1.05);
+}
+
+.gallery-cta {
+  max-width: var(--container);
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.agenda {
+  padding: 60px 24px 140px;
+  background: var(--bg);
+}
+ 
+.agenda-heading {
+  max-width: var(--container);
+  margin: 0 auto 56px;
+  text-align: center;
+}
+ 
+.agenda-title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 72px);
+  line-height: 1.02;
+  margin: 0;
+}
+.accent-text { color: var(--accent); }
+ 
+.agenda-grid {
+  max-width: var(--container);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.event-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.event-card:hover { transform: translateY(-4px); border-color: rgba(198,255,31,0.4); }
+ 
+.event-date {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+ 
+.event-name {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0 0 4px;
+}
+ 
+.event-loc {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+
+.connect {
+  padding: 120px 0;
+  background: var(--bg);
+}
+ 
+.connect__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 64px;
+}
+ 
+.connect__title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 56px);
+  margin-bottom: 24px;
+}
+
+.connect__desc {
+  color: var(--text-dim);
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 400px;
+  margin-bottom: 48px;
+}
+ 
+.connect__item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+ 
+.connect__icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+
+.connect__label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+ 
+.connect__item p {
+  color: var(--text-dim);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.connect__form {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+ 
+.connect__form label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  margin-bottom: -12px;
+}
+
+.connect__form input,
+.connect__form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  padding: 10px 0;
+  resize: none;
+  transition: border-color 0.2s ease;
+}
+ 
+.connect__form input::placeholder,
+.connect__form textarea::placeholder {
+  color: #5a5a54;
+}
+ 
+.connect__form input:focus,
+.connect__form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.connect__form button {
+  margin-top: 8px;
+  border: none;
+}
