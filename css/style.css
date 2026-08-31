@@ -524,3 +524,22 @@ textarea {
   font-size: clamp(40px, 6vw, 56px);
   margin-bottom: 24px;
 }
+
+.connect__desc {
+  color: var(--text-dim);
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 400px;
+  margin-bottom: 48px;
+}
+ 
+.connect__item {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+ 
+.connect__icon {
+  font-size: 20px;
+  line-height: 1;
+}
