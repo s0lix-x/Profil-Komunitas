@@ -605,3 +605,58 @@ textarea {
   margin-top: 8px;
   border: none;
 }
+
+.footer {
+  background: var(--bg-soft);
+  border-top: 1px solid var(--line);
+  padding: 72px 0 28px;
+}
+ 
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--line);
+}
+ 
+.footer__logo {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 24px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+ 
+.footer__brand p {
+  color: var(--text-dim);
+  font-size: 14px;
+  max-width: 320px;
+  line-height: 1.7;
+}
+ 
+.footer__heading {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  margin-bottom: 18px;
+}
+ 
+.footer__col a {
+  display: block;
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+  transition: color 0.2s ease;
+}
+ 
+.footer__col a:hover { color: var(--accent); }
+ 
+.footer__bottom {
+  padding-top: 24px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #5a5a54;
+}
