@@ -654,3 +654,9 @@ textarea {
  
 .footer__col a:hover { color: var(--accent); }
  
+.footer__bottom {
+  padding-top: 24px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #5a5a54;
+}
