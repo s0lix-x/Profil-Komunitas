@@ -600,3 +600,8 @@ textarea {
   outline: none;
   border-color: var(--accent);
 }
+
+.connect__form button {
+  margin-top: 8px;
+  border: none;
+}
