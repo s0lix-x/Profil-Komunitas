@@ -644,3 +644,13 @@ textarea {
   margin-bottom: 18px;
 }
  
+.footer__col a {
+  display: block;
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+  transition: color 0.2s ease;
+}
+ 
+.footer__col a:hover { color: var(--accent); }
+ 
