@@ -543,3 +543,19 @@ textarea {
   font-size: 20px;
   line-height: 1;
 }
+
+
+.connect__label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+ 
+.connect__item p {
+  color: var(--text-dim);
+  font-size: 15px;
+  line-height: 1.6;
+}
