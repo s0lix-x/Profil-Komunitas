@@ -590,3 +590,13 @@ textarea {
   transition: border-color 0.2s ease;
 }
  
+.connect__form input::placeholder,
+.connect__form textarea::placeholder {
+  color: #5a5a54;
+}
+ 
+.connect__form input:focus,
+.connect__form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
