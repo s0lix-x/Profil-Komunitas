@@ -576,3 +576,17 @@ textarea {
   color: var(--text-dim);
   margin-bottom: -12px;
 }
+
+.connect__form input,
+.connect__form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  padding: 10px 0;
+  resize: none;
+  transition: border-color 0.2s ease;
+}
+ 
