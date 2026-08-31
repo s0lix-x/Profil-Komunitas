@@ -559,3 +559,20 @@ textarea {
   font-size: 15px;
   line-height: 1.6;
 }
+
+.connect__form {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+ 
+.connect__form label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+  margin-bottom: -12px;
+}
