@@ -507,3 +507,20 @@ textarea {
   color: var(--muted);
   margin: 0 0 22px;
 }
+
+.connect {
+  padding: 120px 0;
+  background: var(--bg);
+}
+ 
+.connect__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 64px;
+}
+ 
+.connect__title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 6vw, 56px);
+  margin-bottom: 24px;
+}
