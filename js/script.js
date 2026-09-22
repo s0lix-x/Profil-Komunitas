@@ -22,10 +22,7 @@ try {
   } else {
     alert("Pesan gagal dikirim.");
   }
-} catch (error) {
-  alert("Terjadi kesalahan. Coba lagi.");
-}
-
+} 
 button.disabled = false;
 button.textContent = "KIRIM PESAN →";
   });
