@@ -24,3 +24,10 @@ No	Nama	Role	Tugas
 3	[Syifa]	Back-End / Developer	Mengerjakan fungsi dan logika website
 4	[Iffat]	UI/UX & Dokumentasi	Merancang tampilan dan mengelola dokumentasi
 5	[Mutia]	QA / Tester	Melakukan testing dan mencari bug
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
