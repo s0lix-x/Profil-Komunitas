@@ -9,11 +9,11 @@ Project ini merupakan website profil komunitas yang menyediakan beberapa informa
 
 Website terdiri dari beberapa bagian, di antaranya:
 
-🏠 Beranda — halaman utama website
-👥 Tentang — informasi mengenai komunitas
-🖼️ Galeri — menampilkan dokumentasi atau foto kegiatan
-📅 Event — informasi kegiatan atau acara komunitas
-📩 Contact — halaman/formulir untuk menghubungi komunitas
+Beranda — halaman utama website
+Tentang — informasi mengenai komunitas
+Galeri — menampilkan dokumentasi atau foto kegiatan
+Event — informasi kegiatan atau acara komunitas
+Contact — halaman/formulir untuk menghubungi komunitas
 
 Project ini dikerjakan secara berkelompok dengan menerapkan sistem kolaborasi GitHub menggunakan branch, commit, pull request, code review, dan issue.
 
