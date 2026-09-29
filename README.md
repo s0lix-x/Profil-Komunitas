@@ -17,8 +17,6 @@ Website terdiri dari beberapa bagian, di antaranya:
 
 Project ini dikerjakan secara berkelompok dengan menerapkan sistem kolaborasi GitHub menggunakan branch, commit, pull request, code review, dan issue.
 
-👥 Anggota Tim
-No	Nama	Role	Tugas
 1	[Damar]	Project Manager / Team Lead	Mengatur repository, Issue, pembagian tugas, dan review PR
 2	[Mutia]	Front-End Developer	Mengembangkan tampilan dan struktur halaman website
 3	[Syifa]	Back-End / Developer	Mengerjakan fungsi dan logika website
